@@ -6,4 +6,3 @@ pyopengl
 pillow
 pyzmq
 pyyaml
-opencv-python
