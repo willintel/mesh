@@ -231,7 +231,7 @@ if has_setup_tools:
     additional_kwargs['setup_requires'] = ['setuptools', 'numpy']
     additional_kwargs['install_requires'] = [
         'numpy >= 1.8',
-        'opencv-python',
+        #'opencv-python',
         'pillow',
         'pyopengl',
         'pyyaml',
