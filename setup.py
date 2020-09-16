@@ -225,7 +225,8 @@ def _get_all_extensions():
 
 all_extensions = _get_all_extensions()
 
-print("all_extensions:", all_extensions)
+log.info("all_extensions:")
+log.info(all_extensions)
 
 additional_kwargs = {}
 if has_setup_tools:
